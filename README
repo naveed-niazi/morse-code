@@ -1,0 +1,13 @@
+Just a small project to learn a bit about morse code.
+
+FEATURES:
+
+- translate morse code to english
+- english to morse code
+- convert morse code to audio
+
+TODO: 
+
+- add audio download feature
+- translate form english to other languages
+- improve on copy translation feature
