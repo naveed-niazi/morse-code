@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main-heading">
+        <h1>Morse Code Translator</h1>
+      </div>
+      <div class="input-label"><h3>Input:</h3></div>
+      <textarea id="inputText" rows="5" placeholder="Enter text or Morse code..."></textarea>
+      <div class="action-button-area">
+        <button id="toggleButton">Toggle</button>
+        <button id="translateButton">Translate</button>
+      </div>
+      <div class="input-label"><h3>Result:</h3></div>
+      <div id="outputMorse"></div>
+      <div class="action-button-area">
+        <button id="copyButton" class="hidden">Copy Result</button>
+        <button id="playButton" class="hidden">Play Morse</button>
+      </div>
+      <!-- <a id="downloadLink" class="hidden" download="morse_code_audio.wav">Download Audio</a> -->
+    </div>
+    <script src="translate.js"></script>
+    <script src="audio-generator.js"></script>
+    <script src="copy-translation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100vw;
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus-visible {
+  border-color: red;
+}
+
+button, a {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#outputMorse {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#inputText {
+  resize: none;
+}
+
+#outputMorse {
+  border: 1px solid #ccc;
+  width:auto;
+  height: max-content;
+  min-width: 100%;
+  min-height: 100px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-label {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-convert {
+  padding: 3px 5px;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.action-button-area {
+  text-align: end;
+}
